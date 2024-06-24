@@ -25,7 +25,7 @@ export default function Landing() {
           </p>
           <form className="flex gap-2 w-full z-50">
             <Input type="email" placeholder="Enter your email" className="flex-1 z-50" />
-            <Button type="submit" className="z-50 hover:bg-[#ba09c6] border-2 border-[#4c46a5] hover:border-[#ba09c6]">Join Waitlist</Button>
+            <Button type="submit" className="z-50 hover:bg-[#4c46a5] border-2 border-[#4c46a5] hover:border-[#4c46a5 text-black hover:text-white]">Join Waitlist</Button>
           </form>
         </div>
       </main>
