@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 //const inter = Inter({ subsets: ["latin"] });
-//
+export const runtime = "edge";
 export const metadata: Metadata = {
   title: "CookieCutter",
   description: "Get curated recipes on the fly",
