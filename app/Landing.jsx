@@ -23,9 +23,12 @@ export default function Landing() {
           <p className="text-muted-foreground md:text-xl z-20">
             Get personalized recipes based on what you’re feeling, what’s in your fridge, what kind of diet you’re on or really anything that you need. 
           </p>
-          <form className="flex gap-2 w-full z-50">
-            <Input type="email" placeholder="Enter your email" className="flex-1 z-50" />
-            <Button type="submit" className="z-50 hover:bg-[#4c46a5] border-2 border-[#4c46a5] hover:border-[#4c46a5 text-black hover:text-white]">Join Waitlist</Button>
+          <form className="flex gap-2 w-full z-50 flex-col">
+            <Button type="submit" className="hover:bg-[#4c46a5] border-2 border-[#4c46a5] hover:border-[#4c46a5] hover:text-[#ffffff] z-50"> 
+              <a href="https://gl0avuxju4s.typeform.com/to/TbFL39xB">  
+                Join Waitlist 
+              </a>
+            </Button>   
           </form>
         </div>
       </main>
@@ -33,7 +36,6 @@ export default function Landing() {
         <p>&copy; 2024 CookieCutter. All rights reserved.</p>
         <nav className="flex gap-4">
           <Link href="https://x.com/_cookiecutter/" className="hover:underline underline-offset-4" prefetch={false}>
-
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30">
             <path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"></path>
             </svg>
