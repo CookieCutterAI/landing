@@ -21,9 +21,9 @@ export default function Landing() {
       <main className="flex-1 flex flex-col items-center justify-center px-4 md:px-6 py-12 md:py-24 lg:py-32 xl:py-48 text-center">
         <div className="max-w-md space-y-4">
         <h1 className="text-6xl font-bold tracking-tighter">
-        Get curated recipes on the    
-            <Highlight className="text-black dark:text-white m-1">
-            fly
+        Get curated recipes on the   <br /> 
+            <Highlight className="text-black dark:text-white m-1 ">
+            <i> fly </i>
           </Highlight>
         </h1>
           <p className="text-muted-foreground md:text-xl z-20">
