@@ -31,7 +31,7 @@ export default function Landing() {
           </p>
           <form className="flex gap-2 w-full z-50 flex-col">
             <Button type="submit" className="hover:bg-[#4c46a5] border-2 border-[#4c46a5] hover:border-[#4c46a5] hover:text-[#ffffff] z-50"> 
-              <a href="https://gl0avuxju4s.typeform.com/to/TbFL39xB">  
+              <a href="https://tally.so/r/m6x1pk">  
                 Join Waitlist 
               </a>
             </Button>   
