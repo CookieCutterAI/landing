@@ -25,15 +25,15 @@ const Section = () => {
             }
           >
             <Image
-              src={`/hero-img.png`}
+              src={`/hero-image2.png`}
               alt="hero"
               height={720}
               width={1400}
               className="mx-auto rounded-2xl object-cover h-full object-left-top"
               draggable={false}
             />
-          </ContainerScroll>
-          <div className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto">
+          </ContainerScroll> <br /><br /><br /><br />
+          <div className="text-2xl px-4 font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto">
                 Stop mindlessly scrolling  <br />
           </div>
 
