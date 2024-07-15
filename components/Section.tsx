@@ -16,7 +16,7 @@ const Section = () => {
             titleComponent={
               <>
                 <h1 className="text-4xl font-semibold text-black dark:text-white">
-                   CookieCutter will reccomend the perfect recipe <br /> 
+                   CookieCutter will recommend the perfect recipe <br /> 
                   <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                    based on <i> <u> you </u>  </i>
                   </span>
