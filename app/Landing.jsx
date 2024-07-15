@@ -6,6 +6,7 @@ import { ContainerScroll } from "@/components/ui/container-scroll-animations";
 import Image from "next/image";
 import Section from '@/components/Section' 
 import Footer from '@/components/Footer'
+import './globals.css'
 export default function Landing() {
   return (
     <div className="flex flex-col min-h-[100vh] bg-[#F5F5F5] relative overflow-hidden">
@@ -30,7 +31,7 @@ export default function Landing() {
             Get personalized recipes based on what you’re feeling, what’s in your fridge, what kind of diet you’re on or really anything that you need. 
           </p>
           <form className="flex gap-2 w-full z-50 flex-col">
-            <Link href="https://tally.so/r/m6x1pk" className="hover:bg-[#4c46a5] border-2 border-[#4c46a5] hover:border-[#4c46a5] hover:text-[#ffffff] z-50 h-[2.2rem] rounded-full text-center">  
+            <Link href="https://tally.so/r/m6x1pk" className="hover:bg-[#4c46a5] border-2 border-[#4c46a5] hover:border-[#4c46a5] hover:text-[#ffffff] z-50 h-[2.2rem] rounded-full text-center waitlistBtn">  
                 Join Waitlist 
             </Link>
           </form>
